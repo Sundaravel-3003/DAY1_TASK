@@ -1,0 +1,69 @@
+
+
+JavaScript Objects
+
+A javaScript object is an entity having state and behavior (properties and method). 
+For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+JavaScript is an object-based language. Everything is an object in JavaScript.
+
+
+Creating Objects in JavaScript
+
+There are 3 ways to create objects.
+
+    * By object literal
+    * By creating instance of Object directly (using new keyword)
+    * By using an object constructor (using new keyword)
+
+syntax for creating a odject -
+
+object={property1:value1,property2:value2.....propertyN:valueN}
+
+example
+
+let person = { name : 'xyz', age : 20, }
+
+here inside a object we should write in a certain format
+
+  object = { key : value }
+
+in the above example key are name and age,value are xyz and 20
+
+we can define anything as a odject in js
+all the varialbes are used as objects in js
+for example strings,integers,boolean etc
+
+we can also create sub objects inside an object
+
+we can also overwrite the values of the key used inside an object
+
+
+object created by object literal method -
+let person = { name : 'xyz', age : 20, }
+
+
+object created by instance directly -
+here we create a NEW keyword.
+example 
+
+let person = new object();
+person.name = "xyz";
+person.age = 20;
+
+
+object created by using a object constructor -
+here we have to first create a function with arguments
+then each argument value is assigned to the object by THIS keywords
+
+function person(name,age)
+{
+this.name = name;
+this.age = age ;
+}
+
+e = new person( "xyz",20 );
+
+
+
+
